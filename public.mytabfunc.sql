@@ -15,6 +15,7 @@ begin
  INSERT INTO public.mytable(
 	id, name)
 	VALUES (1, 'fjhfjhf');
+	commit;
 end;
 $BODY$;
 
